@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import "modern-normalize"
-import './App.css'
 import css from './App.module.css'
-import CafeInfo from './components/CafeInfo/CafeInfo'
-import VoteOptions from './components/VoteOptions/VoteOptions'
-import type { Votes, VoteType } from './types/votes'
-import VoteStats from './components/VoteStats/VoteStats'
-import Notification from './components/Notification/Notification'
+import CafeInfo from '../CafeInfo/CafeInfo'
+import VoteOptions from '../VoteOptions/VoteOptions'
+import type { Votes, VoteType } from '../../types/votes'
+import VoteStats from '../VoteStats/VoteStats'
+import Notification from '../Notification/Notification'
 
 const initialVotes: Votes = {
   good: 0,
