@@ -2,8 +2,8 @@ import type { Votes } from "../../types/votes";
 import styles from './VoteStats.module.css'
 interface VoteStatsProps {
     votes: Votes;
-    totalVotes: number;
-    positiveRate: number;
+    totalVotes: 0;
+    positiveRate: 0;
 
 }
 export default function VoteStats({votes, totalVotes, positiveRate}: VoteStatsProps) {
